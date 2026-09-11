@@ -1,0 +1,118 @@
+<svg width="600" height="750" viewBox="0 0 600 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="600" height="750" fill="#141416"/>
+<!-- Background cockpit & engine elements -->
+<path d="M0 0h600v750H0z" fill="url(#bg_cockpit)"/>
+<defs>
+  <radialGradient id="bg_cockpit" cx="50%" cy="40%" r="60%">
+    <stop offset="0%" stop-color="#2a2e33"/>
+    <stop offset="60%" stop-color="#141619"/>
+    <stop offset="100%" stop-color="#08090a"/>
+  </radialGradient>
+  <linearGradient id="yellow_helmet" x1="20%" y1="10%" x2="80%" y2="90%">
+    <stop offset="0%" stop-color="#ffe600"/>
+    <stop offset="45%" stop-color="#fed100"/>
+    <stop offset="85%" stop-color="#dca500"/>
+    <stop offset="100%" stop-color="#997000"/>
+  </linearGradient>
+  <linearGradient id="green_stripe" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00552b"/>
+    <stop offset="50%" stop-color="#008c45"/>
+    <stop offset="100%" stop-color="#004d26"/>
+  </linearGradient>
+  <linearGradient id="blue_stripe" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#002b66"/>
+    <stop offset="50%" stop-color="#0048b3"/>
+    <stop offset="100%" stop-color="#00204d"/>
+  </linearGradient>
+  <linearGradient id="visor_glare" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+    <stop offset="35%" stop-color="#3b4252" stop-opacity="0.1"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0.6"/>
+  </linearGradient>
+</defs>
+
+<!-- Cockpit Roll Hoop & Headrest -->
+<path d="M120 750c10-180 50-320 180-320s170 140 180 320H120z" fill="#0c0d0e"/>
+<path d="M160 750c0-120 40-200 140-200s140 80 140 200H160z" fill="#1b1d20"/>
+
+<!-- Senna Red Marlboro Racing Suit Collar -->
+<path d="M140 750c20-110 90-140 160-140s140 30 160 140H140z" fill="#d91e18"/>
+<path d="M220 750v-70c25 10 55 15 80 15s55-5 80-15v70H220z" fill="#b01612"/>
+<path d="M260 690h80v60h-80z" fill="#f8fafc"/>
+<text x="300" y="730" fill="#d91e18" font-family="'Impact', 'Arial Black', sans-serif" font-weight="900" font-size="22" letter-spacing="1" text-anchor="middle">BOSS</text>
+
+<!-- Helmet Shell -->
+<ellipse cx="300" cy="330" rx="195" ry="245" fill="url(#yellow_helmet)"/>
+<!-- Helmet top shadow/highlight contour -->
+<ellipse cx="300" cy="170" rx="140" ry="85" fill="#fff566" opacity="0.4"/>
+
+<!-- Green and Blue Brazilian Stripes (Upper) -->
+<path d="M109 230c40-35 110-55 191-55s151 20 191 55c-15-18-45-38-80-50-65-20-155-20-220 0-36 12-67 32-82 50z" fill="url(#green_stripe)"/>
+<path d="M115 250c45-30 115-45 185-45s140 15 185 45c-20-22-60-40-105-48-50-10-110-10-160 0-45 8-85 26-105 48z" fill="url(#blue_stripe)"/>
+
+<!-- Forehead Marlboro Chevron & Branding Area -->
+<path d="M160 180h280v55H160z" fill="#f8fafc"/>
+<path d="M160 180l140 35 140-35v-10H160z" fill="#e11d48"/>
+<text x="300" y="218" fill="#1e293b" font-family="'Helvetica Neue', 'Arial Black', sans-serif" font-weight="900" font-size="34" letter-spacing="3" text-anchor="middle">HONDA</text>
+
+<path d="M175 235h250v42H175z" fill="#f8fafc"/>
+<polygon points="175,235 300,258 425,235 425,242 300,265 175,242" fill="#d91e18"/>
+<text x="300" y="268" fill="#1e293b" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="28" letter-spacing="1" text-anchor="middle">Marlboro</text>
+
+<!-- Helmet Visor Opening / Aperture -->
+<path d="M142 285c30-12 90-18 158-18s128 6 158 18c18 20 28 65 24 135-25 15-80 25-182 25s-157-10-182-25c-4-70 6-115 24-135z" fill="#080809"/>
+
+<!-- Senna's Eyes & Forehead inside the visor -->
+<g id="senna_face">
+  <!-- Skin Tone -->
+  <path d="M165 315c20-6 75-10 135-10s115 4 135 10c8 35 4 75-8 90-30 8-80 12-127 12s-97-4-127-12c-12-15-16-55-8-90z" fill="#c48a60"/>
+  <!-- Brow Shadow -->
+  <path d="M168 318c30-4 75-6 132-6s102 2 132 6c-5 18-20 24-40 24-50 0-65-8-92-8s-42 8-92 8c-20 0-35-6-40-24z" fill="#8f5938"/>
+  
+  <!-- Eyes -->
+  <!-- Left Eye -->
+  <ellipse cx="235" cy="352" rx="22" ry="12" fill="#f8fafc"/>
+  <circle cx="237" cy="351" r="9" fill="#2d1c13"/>
+  <circle cx="238" cy="349" r="3.5" fill="#090604"/>
+  <circle cx="240" cy="348" r="2" fill="#ffffff"/>
+  <path d="M210 342c12-8 32-8 48-1" stroke="#33180a" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- Right Eye -->
+  <ellipse cx="365" cy="352" rx="22" ry="12" fill="#f8fafc"/>
+  <circle cx="363" cy="351" r="9" fill="#2d1c13"/>
+  <circle cx="362" cy="349" r="3.5" fill="#090604"/>
+  <circle cx="364" cy="348" r="2" fill="#ffffff"/>
+  <path d="M342 341c16-7 36-7 48 1" stroke="#33180a" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- Nose Bridge -->
+  <path d="M293 340c4 16 2 35-12 50h38c-14-15-16-34-12-50z" fill="#9e6642"/>
+  <ellipse cx="292" cy="392" rx="4" ry="2.5" fill="#4d2c19"/>
+  <ellipse cx="308" cy="392" rx="4" ry="2.5" fill="#4d2c19"/>
+
+  <!-- Balaclava Fabric around face -->
+  <path d="M150 295c25-8 80-12 150-12s125 4 150 12c12 25 15 65 10 115-20 12-70 18-160 18s-140-6-160-18c-5-50-2-90 10-115z" fill="none" stroke="#1c1917" stroke-width="12"/>
+</g>
+
+<!-- Visor Glass and Reflection -->
+<path d="M142 285c30-12 90-18 158-18s128 6 158 18c18 20 28 65 24 135-25 15-80 25-182 25s-157-10-182-25c-4-70 6-115 24-135z" fill="url(#visor_glare)"/>
+<path d="M148 290l100 135h40l-90-135z" fill="#ffffff" opacity="0.08"/>
+
+<!-- Visor Tear-off Post and Pivot Screws -->
+<circle cx="132" cy="365" r="9" fill="#e2e8f0"/>
+<circle cx="132" cy="365" r="4" fill="#64748b"/>
+<circle cx="468" cy="365" r="9" fill="#e2e8f0"/>
+<circle cx="468" cy="365" r="4" fill="#64748b"/>
+
+<!-- Chin bar with NACIONAL logo -->
+<path d="M145 440c45 15 100 22 155 22s110-7 155-22l-15 90c-35 25-85 35-140 35s-105-10-140-35l-15-90z" fill="url(#blue_stripe)"/>
+<path d="M165 460h270v48H165z" fill="#003580"/>
+<text x="300" y="496" fill="#ffffff" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="36" letter-spacing="4" text-anchor="middle">NACIONAL</text>
+
+<!-- Lower green accent stripe on chin -->
+<path d="M175 515c35 8 80 12 125 12s90-4 125-12l-5 18c-30 10-75 14-120 14s-90-4-120-14l-5-18z" fill="url(#green_stripe)"/>
+
+<!-- Chin vent grills -->
+<rect x="270" y="540" width="16" height="5" rx="2" fill="#0f172a"/>
+<rect x="292" y="540" width="16" height="5" rx="2" fill="#0f172a"/>
+<rect x="314" y="540" width="16" height="5" rx="2" fill="#0f172a"/>
+</svg>
